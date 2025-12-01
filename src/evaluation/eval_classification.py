@@ -6,8 +6,8 @@ from pathlib import Path
 from collections import defaultdict
 from typing import Dict, List
 
-from ..models import RawNewsItem
-from ..pipeline.classify import classify_zero_shot, classify_few_shot, CATEGORIES
+from models import RawNewsItem
+from pipeline.classify import classify_zero_shot, classify_few_shot, CATEGORIES
 
 
 def load_sample_labels() -> List[Dict]:

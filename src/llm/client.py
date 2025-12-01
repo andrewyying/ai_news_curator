@@ -3,7 +3,7 @@
 import json
 from typing import List, Dict, Any, Optional
 from openai import OpenAI
-from ..config import settings
+from config import settings
 
 
 # Initialize OpenAI client

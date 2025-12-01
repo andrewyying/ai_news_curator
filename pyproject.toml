@@ -23,7 +23,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ai-news-curator = "ai_news_curator.cli:cli"
+ai-news-curator = "cli:cli"
 
 [tool.setuptools.packages.find]
 where = ["src"]

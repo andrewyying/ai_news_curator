@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Optional
 
 
-_PROMPTS_DIR = Path(__file__).parent.parent.parent.parent / "prompts"
+_PROMPTS_DIR = Path(__file__).parent.parent.parent / "prompts"
 
 
 def load_prompt(name: str) -> str:

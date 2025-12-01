@@ -6,9 +6,9 @@ from datetime import date
 from typing import List, Optional
 from tqdm.asyncio import tqdm as async_tqdm
 
-from ..models import ClassifiedNewsItem, ScoredNewsItem
-from ..llm import call_llm_json, load_prompt
-from ..cache import NewsCache
+from models import ClassifiedNewsItem, ScoredNewsItem
+from llm import call_llm_json, load_prompt
+from cache import NewsCache
 
 
 async def _score_single_item(

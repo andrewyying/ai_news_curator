@@ -6,7 +6,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from .models import ClassifiedNewsItem, ScoredNewsItem
+from models import ClassifiedNewsItem, ScoredNewsItem
 
 
 class NewsCache:
@@ -20,7 +20,7 @@ class NewsCache:
             cache_dir: Directory to store cache files (defaults to data/cache)
         """
         if cache_dir is None:
-            cache_dir = Path(__file__).parent.parent.parent / "data" / "cache"
+            cache_dir = Path(__file__).parent.parent / "data" / "cache"
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(parents=True, exist_ok=True)
     

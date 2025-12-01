@@ -6,9 +6,9 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from tqdm import tqdm
 
-from ..models import ScoredNewsItem, ClusteredItem
-from ..llm import embed_texts
-from ..config import settings
+from models import ScoredNewsItem, ClusteredItem
+from llm import embed_texts
+from config import settings
 
 
 def cluster_items(

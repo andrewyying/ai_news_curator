@@ -11,8 +11,8 @@ import feedparser
 import requests
 from tqdm import tqdm
 
-from ..config import settings
-from ..models import RawNewsItem
+from config import settings
+from models import RawNewsItem
 
 
 def _generate_id(source: str, title: str, url: str | None) -> str:
@@ -146,7 +146,7 @@ def fetch_all_feeds(target_date: date | None = None) -> List[RawNewsItem]:
 
 def _save_raw_news(items: List[RawNewsItem], target_date: date):
     """Save raw news items to JSON file."""
-    data_dir = Path(__file__).parent.parent.parent.parent / "data" / "raw_news"
+    data_dir = Path(__file__).parent.parent.parent / "data" / "raw_news"
     data_dir.mkdir(parents=True, exist_ok=True)
     
     filename = data_dir / f"{target_date.isoformat()}.raw.json"

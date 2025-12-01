@@ -5,15 +5,15 @@ import time
 from datetime import date
 from pathlib import Path
 
-from .fetchers import fetch_all_feeds
-from .pipeline import (
+from fetchers import fetch_all_feeds
+from pipeline import (
     classify_zero_shot,
     score_impact,
     cluster_items,
     summarize_clusters,
     generate_markdown_report,
 )
-from .cache import NewsCache
+from cache import NewsCache
 
 
 def run_daily_pipeline(
@@ -97,10 +97,10 @@ def run_daily_pipeline(
     print(f"  ✓ Generated report in {timing_stats['report']:.2f}s")
 
     # Save curated data
-    curated_dir = Path(__file__).parent.parent.parent / "data" / "curated"
+    curated_dir = Path(__file__).parent.parent / "data" / "curated"
     curated_dir.mkdir(parents=True, exist_ok=True)
     curated_file = curated_dir / f"{target_date.isoformat()}.curated.json"
-
+    
     with open(curated_file, "w", encoding="utf-8") as f:
         json.dump(
             [c.model_dump(mode="json") for c in summarized_clusters],
@@ -109,11 +109,11 @@ def run_daily_pipeline(
             ensure_ascii=False,
             default=str,
         )
-
+    
     print(f"Saved curated data to {curated_file}")
-
+    
     # Save report
-    reports_dir = Path(__file__).parent.parent.parent / "reports"
+    reports_dir = Path(__file__).parent.parent / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
     report_file = reports_dir / f"{target_date.isoformat()}.md"
 

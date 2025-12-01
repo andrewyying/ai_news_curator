@@ -2,7 +2,7 @@
 
 import click
 from datetime import datetime
-from .main import run_daily_pipeline
+from main import run_daily_pipeline
 
 
 @click.group()

@@ -5,8 +5,8 @@ import json
 from typing import List
 from tqdm.asyncio import tqdm as async_tqdm
 
-from ..models import ClusteredItem, SummarizedCluster
-from ..llm import call_llm_json, load_prompt
+from models import ClusteredItem, SummarizedCluster
+from llm import call_llm_json, load_prompt
 
 
 async def _summarize_single_cluster(

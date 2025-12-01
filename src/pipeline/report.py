@@ -4,7 +4,7 @@ from datetime import date
 from typing import List
 from collections import defaultdict
 
-from ..models import SummarizedCluster
+from models import SummarizedCluster
 
 
 def generate_markdown_report(
