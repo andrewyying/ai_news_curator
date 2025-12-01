@@ -27,12 +27,21 @@ This is an AI-powered news curation tool that automatically fetches, classifies,
    cd ai_news_curator
    ```
 
-2. Install dependencies:
+2. Install and activate virtual environment
+    ```bash
+    python -m venv venv
+    # If Mac / linux
+    source venv/bin/activate
+    # If Windows
+    venv\Scripts\activate
+    ```
+
+3. Install dependencies:
    ```bash
    pip install -e .
    ```
 
-3. Configure environment variables:
+4. Configure environment variables:
    
    Create a `.env` file in the project root:
    ```bash
