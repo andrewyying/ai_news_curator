@@ -1,0 +1,93 @@
+[
+  {
+    "id": "sample-1",
+    "title": "OpenAI releases GPT-5 with improved reasoning capabilities",
+    "content": "OpenAI announced GPT-5, a new language model with enhanced reasoning capabilities. The model shows significant improvements in mathematical problem-solving and logical reasoning tasks.",
+    "true_category": "AI Models"
+  },
+  {
+    "id": "sample-2",
+    "title": "NVIDIA announces new H100 GPU for AI training",
+    "content": "NVIDIA unveiled the H100 GPU designed for large-scale AI model training. The new GPU offers 3x performance improvement over previous generation.",
+    "true_category": "AI Infrastructure & Hardware"
+  },
+  {
+    "id": "sample-3",
+    "title": "New paper on transformer architecture improvements",
+    "content": "Researchers propose a novel attention mechanism that reduces computational cost by 50% while maintaining model performance. The paper was published at NeurIPS 2024.",
+    "true_category": "AI Research"
+  },
+  {
+    "id": "sample-4",
+    "title": "EU passes AI Act regulating high-risk AI systems",
+    "content": "The European Union approved comprehensive AI regulation that requires risk assessments for high-risk AI applications. The act will come into effect in 2025.",
+    "true_category": "AI Policy & Regulation"
+  },
+  {
+    "id": "sample-5",
+    "title": "New Python library for fine-tuning LLMs",
+    "content": "A new open-source library simplifies the process of fine-tuning large language models. The library supports multiple model architectures and provides easy-to-use APIs.",
+    "true_category": "Developer Tools & Platforms"
+  },
+  {
+    "id": "sample-6",
+    "title": "Microsoft acquires AI startup for $2B",
+    "content": "Microsoft announced the acquisition of an AI startup specializing in enterprise AI solutions. The deal is expected to close in Q2 2024.",
+    "true_category": "Tech Business & Strategy"
+  },
+  {
+    "id": "sample-7",
+    "title": "Apple releases new iPhone with improved camera",
+    "content": "Apple unveiled the latest iPhone model featuring enhanced camera capabilities and improved battery life.",
+    "true_category": "Other"
+  },
+  {
+    "id": "sample-8",
+    "title": "Anthropic releases Claude 3.5 Sonnet",
+    "content": "Anthropic announced Claude 3.5 Sonnet, the latest version of their language model. The new model shows improvements in coding and reasoning tasks.",
+    "true_category": "AI Models"
+  },
+  {
+    "id": "sample-9",
+    "title": "Google Cloud launches new TPU v5 instances",
+    "content": "Google Cloud announced new TPU v5 instances optimized for training large language models. The instances offer improved performance and cost efficiency.",
+    "true_category": "AI Infrastructure & Hardware"
+  },
+  {
+    "id": "sample-10",
+    "title": "Breakthrough in few-shot learning research",
+    "content": "Researchers demonstrate a new approach to few-shot learning that achieves state-of-the-art results on multiple benchmarks. The method reduces data requirements significantly.",
+    "true_category": "AI Research"
+  },
+  {
+    "id": "sample-11",
+    "title": "US government releases AI safety guidelines",
+    "content": "The White House released new guidelines for AI safety and security. The guidelines focus on testing and evaluation of AI systems before deployment.",
+    "true_category": "AI Policy & Regulation"
+  },
+  {
+    "id": "sample-12",
+    "title": "LangChain releases new version with improved RAG support",
+    "content": "LangChain announced version 0.2.0 with enhanced support for retrieval-augmented generation. The update includes new vector store integrations.",
+    "true_category": "Developer Tools & Platforms"
+  },
+  {
+    "id": "sample-13",
+    "title": "AI company raises $100M in Series B funding",
+    "content": "An AI startup focused on enterprise automation raised $100M in Series B funding. The round was led by prominent venture capital firms.",
+    "true_category": "Tech Business & Strategy"
+  },
+  {
+    "id": "sample-14",
+    "title": "Meta releases Llama 3 with 70B parameters",
+    "content": "Meta announced Llama 3, a new open-source language model with 70 billion parameters. The model is available for research and commercial use.",
+    "true_category": "AI Models"
+  },
+  {
+    "id": "sample-15",
+    "title": "AWS introduces new AI training infrastructure",
+    "content": "Amazon Web Services launched new infrastructure optimized for training large AI models. The infrastructure includes specialized compute instances and storage solutions.",
+    "true_category": "AI Infrastructure & Hardware"
+  }
+]
+
